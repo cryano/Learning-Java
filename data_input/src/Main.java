@@ -1,4 +1,3 @@
-import java.math.*;
 import java.util.Locale;
 import java.util.Scanner; // Importing 'Java Until' package. 
 
@@ -10,7 +9,7 @@ public class Main{
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		/*
+		
 		// Creating variables:
 		String name;
 		char gender;
@@ -36,13 +35,11 @@ public class Main{
 		System.out.println("Gender: " + gender);
 		System.out.printf("Weight: %.2f kg\n", weight);
 		System.out.println("-----------------------------------");
-		*/
+		
 		
 		// Testing the line brake:
 		int x = 10, a = 0;
-		String m0 = null, m1 = null, m2 = null;
-		
-		
+
 		a = (int) Math.pow(x, 2);
 		
 		System.out.println(a);
